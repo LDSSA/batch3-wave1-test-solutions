@@ -6,7 +6,7 @@ def euclidean_distance(x, y):
         raise ValueError("First point must be defined.")
 
     if y is None:
-        y = (0) * len(x)
+        y = (0,) * len(x)
 
     if len(x) != len(y):
         msg = "Cannot compute distance between points with different number of coordinates."
