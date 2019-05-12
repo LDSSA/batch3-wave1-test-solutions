@@ -3,14 +3,6 @@ import io
 from parse_json import parse_json
 
 
-def datasets():
-    return [
-        '{"C": 3}\n{"A": 1, "B": "Hello"}\n"Blabla"\n{"C": 76, "A": -14, "B": 7}\n{"C": "Bla", "D": 34, "B": "This is a string!"}\n{"B":"A", "A": 50.5}',
-        '{"C": 3}\n{"A": "1", "B": "Hello"}\n"Blabla"',
-        '{"C": 3}\n{"A": "1", "B": 3}\n"Blabla"'
-    ]
-
-
 def test_1():
     data = (
         '{"C": 3}\n'
