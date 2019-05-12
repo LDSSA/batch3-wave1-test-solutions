@@ -1,3 +1,6 @@
+from step_2 import LinkedList
+
+
 def create_list():
     l = LinkedList()
     l.add_node(10)
