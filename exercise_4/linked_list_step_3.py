@@ -1,4 +1,4 @@
-from step_2 import LinkedList
+from linked_list_step_2 import LinkedList
 
 
 def create_list():

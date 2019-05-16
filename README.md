@@ -7,14 +7,15 @@ The test is now publicly available, but you still need a Stepik account to acces
 
 You can check the test (and it's questions) [here](https://stepik.org/course/53685).
 
-This repo already has most of the relevant information, but it's still WIP :)
-
 
 ### What were we testing in the background?
 
 For some questions, we added a tests file with all the assertions that we were doing on Stepik.
 
-Example, for Exercise 4, Step 1.
-We have a proposed solution in file exercise_4/step_1.py and the test in exercise_4/test_step_1.py.
+You can run the tests using pytest. Go to the root of the project and type:
 
-You can run the tests using pytest.
+```
+pytest
+```
+
+If you want to understand why your code wasn't passing the grader, you can use these tests to figure it out!

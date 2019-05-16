@@ -1,5 +1,5 @@
-from step_2 import LinkedList, Node
-from step_4 import update_list
+from linked_list_step_2 import LinkedList, Node
+from linked_list_step_4 import update_list
 
 
 def test():

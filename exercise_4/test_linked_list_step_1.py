@@ -1,5 +1,5 @@
 import pytest
-from step_1 import Node
+from linked_list_step_1 import Node
 
 
 def test_node_with_attributest():

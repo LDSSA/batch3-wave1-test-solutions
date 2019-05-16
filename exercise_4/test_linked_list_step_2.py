@@ -1,4 +1,4 @@
-from step_2 import LinkedList, Node
+from linked_list_step_2 import LinkedList, Node
 
 
 def count_nodes(l):
